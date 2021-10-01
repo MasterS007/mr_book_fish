@@ -1,5 +1,6 @@
 <template>
   <ChildContainer1 />
+  <hr class="divider is-divider" />
   <ChildContainer2 />
 </template>
 
@@ -14,3 +15,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.divider {
+  background-color: lightgray;
+}
+</style>

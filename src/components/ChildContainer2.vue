@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mb-6">
     <div class="columns">
       <div class="column">
         <figure>

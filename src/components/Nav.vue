@@ -7,7 +7,7 @@
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
+      <div class="navbar-start is-size-5">
         <router-link class="navbar-item" to="/">Home</router-link>
 
         <div class="navbar-item has-dropdown is-hoverable">

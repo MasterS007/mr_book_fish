@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="tabs is-toggle is-small is-right mt-3 mr-6">
+    <div class="tabs is-toggle is-small is-right mt-4 mr-6">
       <ul>
         <li class="is-active">
           <a>Best Selling</a>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="mb-6">
-      <button class="button is-white">Load more...</button>
+      <button class="button is-white is-size-5">Load more...</button>
     </div>
   </div>
 </template>
