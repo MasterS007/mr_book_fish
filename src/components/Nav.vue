@@ -26,17 +26,19 @@
           </div>
         </div>
         <router-link class="navbar-item" to="/">Recommendation</router-link>
-        <div class="navbar-item columns ml-4 mt-3">
+        <div class="navbar-item columns ml-4">
           <router-link class="navbar-item" to="/">Blog</router-link>
           <router-link class="navbar-item" to="/">Request Books</router-link>
           <router-link class="navbar-item" to="/">Sale!</router-link>
         </div>
+      </div>
 
-        <div class="navbar-item columns ml-6">
-          <div class="column">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="mr-6">
             <p class="control has-icons-right">
               <input
-                class="input is-fullwidth"
+                class="input mr-6"
                 type="search"
                 placeholder="Search Book or Author or Genre"
               />
@@ -55,12 +57,22 @@
               </span>
             </p>
           </div>
-        </div>
-      </div>
 
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <Cart />
+          <div class="mr-3">
+            <Cart />
+          </div>
+
+          <div class="mr-3">
+            <Notification />
+          </div>
+
+          <div class="mr-6">
+            <img
+              id="profile_pic"
+              alt="profile pic"
+              src="../assets/images/random.jpg"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -69,10 +81,12 @@
 
 <script>
 import Cart from "@/components/Cart.vue";
+import Notification from "@/components/Notification.vue";
 export default {
   name: "Nav",
   components: {
     Cart,
+    Notification,
   },
 };
 </script>
@@ -80,5 +94,12 @@ export default {
 <style scoped>
 .navbar-item {
   font-weight: 600;
+}
+
+#profile_pic {
+  border-radius: 50%;
+  width: 80px;
+  max-height: 55px;
+  height: auto;
 }
 </style>
