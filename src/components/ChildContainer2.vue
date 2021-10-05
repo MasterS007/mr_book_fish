@@ -43,6 +43,10 @@
         <label class="label has-text-grey-dark" for="politics">politics</label>
       </div>
     </div>
+
+    <div class="books_container columns">
+      <div class="column"></div>
+    </div>
   </div>
 </template>
 

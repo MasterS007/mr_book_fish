@@ -12,37 +12,37 @@
 
     <div class="columns">
       <div class="column">
-        <img src="../assets/images/book1.png" alt="ssa" />
+        <img src="../assets/images/book1.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book2.png" alt="ssa" />
+        <img src="../assets/images/book2.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book3.png" alt="ssa" />
+        <img src="../assets/images/book3.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book4.png" alt="ssa" />
+        <img src="../assets/images/book4.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book5.png" alt="ssa" />
+        <img src="../assets/images/book5.png" />
       </div>
     </div>
 
     <div class="columns">
       <div class="column">
-        <img src="../assets/images/book1.png" alt="ssa" />
+        <img src="../assets/images/book1.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book2.png" alt="ssa" />
+        <img src="../assets/images/book2.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book3.png" alt="ssa" />
+        <img src="../assets/images/book3.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book4.png" alt="ssa" />
+        <img src="../assets/images/book4.png" />
       </div>
       <div class="column">
-        <img src="../assets/images/book5.png" alt="ssa" />
+        <img src="../assets/images/book5.png" />
       </div>
     </div>
 
