@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss">
 #header_img {
   width: 250rem;
 }
