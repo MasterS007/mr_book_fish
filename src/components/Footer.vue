@@ -1,17 +1,17 @@
 <template>
-  <footer class="footer">
+  <footer class="footer is-max-desktop">
     <!-- <div class="container first_container"></div> -->
 
-    <div class="container">
-      <div class="columns is-variable is-12">
+    <div class="container is-max-desktop">
+      <div class="columns is-variable is-12 is-desktop">
         <div class="column is-12 first_column">
-          <div class="columns">
+          <div class="columns is-desktop">
             <div
               class="
                 column
                 is-3 is-flex is-justify-content-start
                 user-pic-div
-                mr-4
+                mr-6
               "
             >
               <ul>
@@ -30,7 +30,7 @@
                 </li>
               </ul>
             </div>
-            <div class="column is-7 mt-6 ml-2">
+            <div class="column is-8 mt-6 ml-4">
               <p class="has-text-centered mt-6 is-size-5">
                 “So this bookstore is the best of both worlds.
               </p>
@@ -41,7 +41,7 @@
                 this bookstore.”
               </p>
             </div>
-            <div class="column is-7 mt-6">
+            <div class="column is-8 mt-6">
               <img
                 src="../assets/images/footer-image2.png"
                 alt=""
@@ -58,8 +58,8 @@
             second_column
           "
         >
-          <div class="columns">
-            <div class="contact column is-12 is-flex is-justify-content-start">
+          <div class="columns is-desktop">
+            <div class="contact column is-6 is-flex is-justify-content-start">
               <ul>
                 <li class="social-contact">
                   <a href="https://www.facebook.com/" class="mr-3">
@@ -113,16 +113,22 @@
                 </li>
 
                 <li class="terms mt-2">
-                  <router-link class="address mr-2" to="/"
-                    >Privacy Policy</router-link
-                  >
-                  <router-link class="address" to="/"
-                    >Terms and Conditions</router-link
-                  >
+                  <span class="has-text-left mr-3">
+                    <router-link class="address" to="/"
+                      >Privacy Policy</router-link
+                    >
+                  </span>
+                  <span>
+                    <router-link class="address" to="/"
+                      >Terms and Conditions</router-link
+                    >
+                  </span>
                 </li>
               </ul>
             </div>
-            <div class="column is-3"></div>
+            <div class="pay column">
+              <img src="../assets/images/pay.png" alt="" />
+            </div>
             <div class="bottom-right-img column">
               <img src="../assets/images/footer-image1.png" alt="" />
             </div>
@@ -156,13 +162,13 @@ export default {
 }
 .contact {
   margin-top: 22rem;
-  margin-left: -82rem;
+  margin-left: -68rem;
   position: relative;
   top: 85px;
 }
 
 .social-contact {
-  margin-left: -25px;
+  margin-left: -1.5rem;
 }
 .contact_us {
   color: rgba(62, 120, 208, 0.955);
@@ -182,7 +188,7 @@ export default {
 .bottom-right-img {
   margin-top: 430px;
   position: relative;
-  left: 68rem;
+  left: 35rem;
   top: 50px;
 }
 .upper-right-img {
@@ -202,5 +208,11 @@ export default {
 
 .terms {
   margin-left: -1.5rem;
+}
+.pay {
+  margin-top: 550px;
+  position: relative;
+  left: 23rem;
+  top: 100px;
 }
 </style>
