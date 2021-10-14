@@ -1,7 +1,5 @@
 <template>
   <footer class="footer is-max-desktop">
-    <!-- <div class="container first_container"></div> -->
-
     <div class="container is-max-desktop">
       <div class="columns is-variable is-12 is-desktop">
         <div class="column is-12 first_column">
@@ -11,7 +9,7 @@
                 column
                 is-3 is-flex is-justify-content-start
                 user-pic-div
-                mr-6
+                mr-5
               "
             >
               <ul>
@@ -23,14 +21,14 @@
                   />
                 </li>
                 <li>
-                  <span class="is-size-4">Lorem Martine</span>
+                  <span class="is-size-4 feedback">Lorem Martine</span>
                 </li>
                 <li>
-                  <span>Astrophysicist at Caltech</span>
+                  <span class="feedback">Astrophysicist at Caltech</span>
                 </li>
               </ul>
             </div>
-            <div class="column is-8 mt-6 ml-4">
+            <div class="column is-10 mt-6 feedback">
               <p class="has-text-centered mt-6 is-size-5">
                 “So this bookstore is the best of both worlds.
               </p>
@@ -185,6 +183,10 @@ export default {
   font-size: 17px;
   color: #868e96;
 }
+
+.feedback {
+  color: #868e96;
+}
 .bottom-right-img {
   margin-top: 430px;
   position: relative;
@@ -197,7 +199,7 @@ export default {
 }
 .user-pic-div {
   margin-top: 10rem;
-  margin-left: -150px;
+  margin-left: -215px;
 }
 #user_pic {
   border-radius: 50%;
