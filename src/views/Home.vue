@@ -3,6 +3,10 @@
     <Nav />
     <Header />
     <Container />
+    <Accessories />
+    <Collections />
+    <Books />
+    <Tags />
     <RequestBook />
     <Footer />
   </div>
@@ -15,6 +19,10 @@ import Header from "@/components/Header.vue";
 import Container from "@/components/Container.vue";
 import Footer from "@/components/Footer.vue";
 import RequestBook from "@/components/RequestBook.vue";
+import Tags from "@/components/Tags.vue";
+import Books from "@/components/Books.vue";
+import Collections from "@/components/Collections.vue";
+import Accessories from "@/components/Accessories.vue";
 
 export default {
   name: "Home",
@@ -24,6 +32,10 @@ export default {
     Container,
     Footer,
     RequestBook,
+    Tags,
+    Books,
+    Collections,
+    Accessories,
   },
 };
 </script>

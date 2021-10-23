@@ -112,10 +112,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped>
+.panel-block {
+  background-color: #3c36361a;
+}
 .panel-heading {
   background-color: #000000c4;
-  text-decoration-color: snow;
+  color: snow;
   font-weight: lighter;
 }
 .request-box {
